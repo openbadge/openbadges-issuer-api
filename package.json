@@ -1,0 +1,37 @@
+{
+  "name": "openbadges-issuer-api",
+  "version": "0.0.1-alpha1",
+  "description": "API for creating hosted files when issuing Open Badges",
+  "keywords": [
+    "openbadges",
+    "issuer",
+    "hosted"
+  ],
+  "homepage": "https://github.com/openbadges-issuer/openbadges-issuer-api",
+  "bugs": "https://github.com/openbadges-issuer/openbadges-issuer-api/issues",
+  "author": {
+    "name": "Evgeniy Gavryushin",
+    "email": "job.egavr@yandex.ru",
+    "url": "https://github.com/eGavr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/openbadges-issuer/openbadges-issuer-api.git"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {
+    "unix-time": "1.0.1",
+    "gen-uid": "0.0.2",
+    "shelljs": "0.3.0",
+    "is-directory": "0.2.2"
+  },
+  "devDependencies": {
+    "jshint": "2.5.3",
+    "jscs": "1.5.9"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "jshint . && jscs -c .jscs.js ."
+  },
+  "license": "MIT"
+}
