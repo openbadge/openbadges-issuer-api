@@ -7,8 +7,8 @@
     "issuer",
     "hosted"
   ],
-  "homepage": "https://github.com/eGavr/openbadges-issuer-api",
-  "bugs": "https://github.com/eGavr/openbadges-issuer-api/issues",
+  "homepage": "https://github.com/openbadge/openbadges-issuer-api",
+  "bugs": "https://github.com/openbadge/openbadges-issuer-api/issues",
   "author": {
     "name": "Evgeniy Gavryushin",
     "email": "job.egavr@yandex.ru",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/eGavr/openbadges-issuer-api.git"
+    "url": "git://github.com/openbadge/openbadges-issuer-api.git"
   },
   "main": "./lib/index.js",
   "dependencies": {
