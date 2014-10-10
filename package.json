@@ -20,10 +20,11 @@
   },
   "main": "./lib/index.js",
   "dependencies": {
+    "github": "0.2.2",
     "unix-time": "1.0.1",
     "gen-uid": "0.0.2",
-    "shelljs": "0.3.0",
-    "is-directory": "0.2.2"
+    "vow": "0.4.5",
+    "vow-node": "0.2.1"
   },
   "devDependencies": {
     "jshint": "2.5.3",
