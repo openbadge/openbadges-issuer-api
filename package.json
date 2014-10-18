@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "jshint": "2.5.3",
-    "jscs": "1.5.9"
+    "jscs": "1.7.3"
   },
   "scripts": {
     "test": "npm run lint",
